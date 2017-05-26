@@ -14,9 +14,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gonum/matrix/mat64"
-	"github.com/gonum/stat/distmv"
 	"go-hep.org/x/hep/hbook"
+	"gonum.org/v1/gonum/matrix/mat64"
+	"gonum.org/v1/gonum/stat/distmv"
 )
 
 func TestP1D(t *testing.T) {
